@@ -1,0 +1,40 @@
+
+:root{
+    --gray:#dddfd4;
+    --yellow:#fae596;
+    --aqua:#3fb0ac;
+    --darker:#173e43;
+}
+
+body{
+    background-color:var(--gray);
+    font-family: 'Old Standard TT', serif;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/* nav helper */
+.nav-log-menu{
+    justify-self: flex-end;
+}
+.navbar-light, .navbar, .navbar-brand, .navcolor{
+    background-color:var(--yellow)!important;
+    color:var(--aqua)!important;
+}
+
+/* base */
+
+.page-wrap{
+    background:var(--gray);
+    color:var(--darker);
+    min-height:100%;
+}
+
+/* landing */
+
+div.landing{
+    display: flex;
+    margin: 1rem 2rem;
+}
